@@ -4,6 +4,7 @@ using UnityEngine.UI;
 public class BigCardPanelBehaviour : MonoBehaviour
 {
     [SerializeField] private Sprite[] cardSprites;
+    [SerializeField] private Animator bigCardAnimator;
     [SerializeField] private Image bigCardImage;
     [SerializeField] private CanvasGroup canvasGroup;
 
@@ -13,10 +14,12 @@ public class BigCardPanelBehaviour : MonoBehaviour
         canvasGroup.interactable = true;
         canvasGroup.blocksRaycasts = true;
         bigCardImage.sprite = cardSprites[cardIndex];
+        bigCardAnimator.SetTrigger("Begin");
     }
 
     public void HidePanel()
     {
+        bigCardAnimator.SetTrigger("Intro");
         canvasGroup.alpha = 0;
         canvasGroup.interactable = false;
         canvasGroup.blocksRaycasts = false;
