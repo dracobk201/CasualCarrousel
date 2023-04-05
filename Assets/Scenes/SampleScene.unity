@@ -985,10 +985,10 @@ RectTransform:
   m_Father: {fileID: 198239284}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.0023346, y: 366.2807}
-  m_SizeDelta: {x: 1294.4, y: 95.5568}
+  m_AnchorMin: {x: 0, y: 0.5}
+  m_AnchorMax: {x: 1, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 366.2807}
+  m_SizeDelta: {x: 0, y: 95.5568}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &482538520
 MonoBehaviour:
@@ -1010,10 +1010,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Clic abajo y siente el sabor
+  m_text: "Descubr\xED nuestros sabores incre\xEDbles."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 9aaec1b78c7918845bf68bff53e32f5e, type: 2}
-  m_sharedMaterial: {fileID: 6111449695206563060, guid: 9aaec1b78c7918845bf68bff53e32f5e, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 37e4155a016d3a34c93790d1d078d301, type: 2}
+  m_sharedMaterial: {fileID: 3735212812918198331, guid: 37e4155a016d3a34c93790d1d078d301, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
